@@ -12,6 +12,8 @@ It works with [UberLLM](https://uberllm.dev) (one key, hundreds of models) and w
 
 Made by the UberLLM team.
 
+Example: [the review it posted](https://github.com/PSA-Team-source/uberllm-action/pull/1#issuecomment-6768560987) on a demo PR with two planted bugs (an off-by-one and SQL built from user input). It found both, with a fix for each.
+
 ## Usage
 
 1. Create an API key at <https://uberllm.dev/dashboard/keys> and add it to your repository as a secret named `UBERLLM_API_KEY` (Settings → Secrets and variables → Actions → New repository secret).
